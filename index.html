@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninja Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">QUIZ TIME</h2>
+        </div>
+    </div>
+
+    <!-- result -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p> You are 
+                <span class="text-primary display-4 p-3">
+                    0% 
+                </span>
+                Ninja
+            </p>
+        </div>
+    </div>
+
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">Let's start!</h2>
+            <!-- form -->
+            <form class="quiz-form text-light">
+                <!-- question  -->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        1. How do you give a ninja directions?
+                    </p>
+                    <!-- option 1 -->
+                    <div class="form-check-my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="form-check-label">Show them a map</label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check-my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">They will find the way</label>
+                    </div>
+                </div>
+                <!-- question  -->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        2. If a Ninja has 3 apples and gives 1 to John and 1 to Bob, how many apples does the ninja have left?
+                    </p>
+                    <!-- option 1 -->
+                    <div class="form-check-my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class="form-check-label">1 apple</label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check-my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">3 apples and no friends</label>
+                    </div>
+                </div>
+                <!-- question  -->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        3. How do you know when you'we met a ninja?
+                    </p>
+                    <!-- option 1 -->
+                    <div class="form-check-my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class="form-check-label">You recognise the outfit</label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check-my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">You won't notice him</label>
+                    </div>
+                </div>
+                <!-- question  -->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        4. What is a ninja's favourite array method?
+                    </p>
+                    <!-- option 1 -->
+                    <div class="form-check-my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label class="form-check-label">forEach()</label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check-my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label">Slice()</label>
+                    </div>
+                </div>
+                <!-- button -->
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
